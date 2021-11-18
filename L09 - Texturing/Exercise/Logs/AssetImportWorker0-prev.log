@@ -1,0 +1,235 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.346; Version 2009; 64bit' Language: 'en' Physical Memory: 16190 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/andr/OneDrive/Dokumenter/University/VGIS/Semester 7/Computer Graphics Programming/L9 - Texturing/Exercise
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54524
+Successfully changed project path to: C:/Users/andr/OneDrive/Dokumenter/University/VGIS/Semester 7/Computer Graphics Programming/L9 - Texturing/Exercise
+C:/Users/andr/OneDrive/Dokumenter/University/VGIS/Semester 7/Computer Graphics Programming/L9 - Texturing/Exercise
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/andr/OneDrive/Dokumenter/University/VGIS/Semester 7/Computer Graphics Programming/L9 - Texturing/Exercise/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.15.1006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001525 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1051ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (450ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (157ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (165ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1044ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.7 MB.
+System memory in use after: 68.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1923.
+Total: 4.280600 ms (FindLiveObjects: 0.201500 ms CreateObjectMapping: 0.059100 ms MarkObjects: 3.933600 ms  DeleteObjects: 0.084700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Textures
+  artifactKey: Guid(0b9f8940e72cade40907f8bcbe980962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(0b9f8940e72cade40907f8bcbe980962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837c29cdb117db160c915df2dc8dd8cf') in 0.006119 seconds 
+  Import took 0.010764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Textures/Earthmap720x360_grid.jpg
+  artifactKey: Guid(772abbff94b46e74e8c3bebbe9bb37fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Earthmap720x360_grid.jpg using Guid(772abbff94b46e74e8c3bebbe9bb37fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c838cec323ed8f92771d5936688666') in 0.083441 seconds 
+  Import took 0.088048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.759609 seconds.
+  path: Assets/Earthmap720x360_grid.jpg
+  artifactKey: Guid(6666ec8c564a16d47aa2c776b071440a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Earthmap720x360_grid.jpg using Guid(6666ec8c564a16d47aa2c776b071440a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e845d9f261998ca0b8356942fd3814d') in 0.017638 seconds 
+  Import took 0.024078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.541423 seconds.
+  path: Assets/Materials_Shaders/sphere_texture.shader
+  artifactKey: Guid(70c6f0ff530ef964ea8217ef6f396bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Shaders/sphere_texture.shader using Guid(70c6f0ff530ef964ea8217ef6f396bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebba48207b532a571edbd0f048c7abc') in 0.011747 seconds 
+  Import took 0.018543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 360.986101 seconds.
+  path: Assets/Materials_Shaders/sphere_texture.mat
+  artifactKey: Guid(57e5454fe6f5d244ebe1ee3ba7996c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Shaders/sphere_texture.mat using Guid(57e5454fe6f5d244ebe1ee3ba7996c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d30721661b9c10d86c1d050d795325') in 0.079513 seconds 
+  Import took 0.085553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.500280 seconds.
+  path: Assets/Materials_Shaders/lighting_textured_sphere.mat
+  artifactKey: Guid(ff585bf333c79ee438b86936b781ff82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Shaders/lighting_textured_sphere.mat using Guid(ff585bf333c79ee438b86936b781ff82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6dbf9e2e3dfa714b448fa18af66a84') in 0.019302 seconds 
+  Import took 0.024334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.748507 seconds.
+  path: Assets/Materials_Shaders/lighting_textured_sphere.shader
+  artifactKey: Guid(3184a02dfdd6bf2418fefdf385b4a883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Shaders/lighting_textured_sphere.shader using Guid(3184a02dfdd6bf2418fefdf385b4a883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6062c99c939f677e9a0cba7b3b0b0f96') in 0.009453 seconds 
+  Import took 0.017046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.335727 seconds.
+  path: Assets/Materials_Shaders/lighting_textured_sphere.shader
+  artifactKey: Guid(3184a02dfdd6bf2418fefdf385b4a883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Shaders/lighting_textured_sphere.shader using Guid(3184a02dfdd6bf2418fefdf385b4a883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c146af0a6420150a4b494e3145db769e') in 0.006709 seconds 
+  Import took 0.013471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2705.407685 seconds.
+  path: Assets/Materials_Shaders/lighting_textured_sphere.mat
+  artifactKey: Guid(ff585bf333c79ee438b86936b781ff82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Shaders/lighting_textured_sphere.mat using Guid(ff585bf333c79ee438b86936b781ff82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58226dc3efc1ff819301fe91c33ccb4') in 0.040582 seconds 
+  Import took 0.050567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.735515 seconds.
+  path: Assets/Materials_Shaders/glossy_texture.mat
+  artifactKey: Guid(fc4ebfab51fe58d4d93a96b775a34eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Shaders/glossy_texture.mat using Guid(fc4ebfab51fe58d4d93a96b775a34eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec7657e668c78070eb5a28f2908dd0d') in 0.018002 seconds 
+  Import took 0.022996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.587633 seconds.
+  path: Assets/Materials_Shaders/glossy_texture.shader
+  artifactKey: Guid(6feed351d94e3154f8c8517d014e5765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Shaders/glossy_texture.shader using Guid(6feed351d94e3154f8c8517d014e5765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8832178da85d0726d9ea5181d46043a') in 0.008020 seconds 
+  Import took 0.013732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.019295 seconds.
+  path: Assets/Materials_Shaders/glossy_texture.shader
+  artifactKey: Guid(6feed351d94e3154f8c8517d014e5765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Shaders/glossy_texture.shader using Guid(6feed351d94e3154f8c8517d014e5765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33f28e8030b494dee5fbf75d67de662') in 0.005852 seconds 
+  Import took 0.015035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.380437 seconds.
+  path: Assets/Textures/Land_shallow_topo_alpha_2048.png
+  artifactKey: Guid(3711b1abe01c36f4d8b726b6616d0c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Land_shallow_topo_alpha_2048.png using Guid(3711b1abe01c36f4d8b726b6616d0c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6531de4f96181369c30099e7bf760aff') in 0.031658 seconds 
+  Import took 0.036766 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
