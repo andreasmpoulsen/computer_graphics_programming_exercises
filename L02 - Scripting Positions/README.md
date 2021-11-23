@@ -36,10 +36,8 @@ An improved version that works independently of the frame rate by using the time
 _Time.deltaTime_
 
 ```
-using
-UnityEngine
-public class
-ExampleScript : MonoBehaviour{
+using UnityEngine;
+public class ExampleScript : MonoBehaviour{
     public Vector3 velocity = Vector3.zero;
     void Update() {
         transform.position += velocity * Time.deltaTime;
