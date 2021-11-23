@@ -122,7 +122,7 @@ public class ExampleScript : MonoBehaviour{
     public float t = 0.0f;
     public GameObject P0, P1, P2;
     void Update() {
-        transform.position(1.0f - t) * (1.0f - t) * P0.transform.position +
+        transform.position = (1.0f - t) * (1.0f - t) * P0.transform.position +
         ...
 ```
 
