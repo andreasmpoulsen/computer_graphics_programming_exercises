@@ -70,7 +70,7 @@ public class ExampleScript : MonoBehaviour{
     public float t;
     public Vector3 first, second;
     void Update() {
-        transform.position = (1 t) * first + t * second;
+        transform.position = (1 - t) * first + t * second;
     }
 }
 ```
@@ -89,7 +89,7 @@ public class ExampleScript : MonoBehaviour {
         t += velocity _ Time.deltaTime;
         if (t > 1.0) { t = 1.0f; }
         if (t < 0.0) { t = 0.0f; }
-        transform.position = (1 - t) _ first + t \* second;
+        transform.position = (1 - t) * first + t * second;
     }
 }
 ```
