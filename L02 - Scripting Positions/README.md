@@ -91,7 +91,7 @@ public class ExampleScript : MonoBehaviour {
 7. Change the code from the previous slide to make the object continuously bounce between the two points by changing the sign of the velocity whenever the object reaches one of the points.
 8. Use Mathf.Sin(Time.time) to animate t smoothly between 0 and 1. (Time.time is the time in seconds since the game was started.)
 
-## Task 3 - Scripting Curved Motions:
+## Task 2 - Scripting Curved Motions:
 
 A quadratic Bezier curve uses an affine linear combination of three points P0, P1, and P2:
 <img src="https://render.githubusercontent.com/render/math?math=B(t) = (1 - t)^2P_0 %2B 2(1 - t)tP_1 %2B t^2P_2">
