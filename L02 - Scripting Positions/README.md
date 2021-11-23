@@ -86,7 +86,7 @@ public class ExampleScript : MonoBehaviour {
     public float t = 0.0f, velocity = 0.0f;
     public Vector3 first, second;
     void Update() {
-        t += velocity _ Time.deltaTime;
+        t += velocity * Time.deltaTime;
         if (t > 1.0) { t = 1.0f; }
         if (t < 0.0) { t = 0.0f; }
         transform.position = (1 - t) * first + t * second;
