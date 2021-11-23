@@ -4,7 +4,17 @@
 
 1. Create a script in C# (in the Project window: Create > C# Script) and rename it to "ExampleScript"
 2. Open it in an editor by double clicking it.
-3. Delete the default content and copy the script from the previous slide into it.
+3. Delete the default content and copy the script below into it.
+
+```
+using UnityEngine;
+public class ExampleScript : MonoBehaviour{
+    void Update() {
+        transform.position = transform.position + new Vector3(0.1f, 0.0f, 0.0f);
+    }
+}
+```
+
 4. Attach it to an object by dragging the script over the object.
 5. Run the program.
 
@@ -26,10 +36,8 @@ An improved version that works independently of the frame rate by using the time
 _Time.deltaTime_
 
 ```
-using
-UnityEngine
-public class
-ExampleScript : MonoBehaviour{
+using UnityEngine;
+public class ExampleScript : MonoBehaviour{
     public Vector3 velocity = Vector3.zero;
     void Update() {
         transform.position += velocity * Time.deltaTime;
@@ -57,14 +65,12 @@ public Vector4 colorChange = Vector4.zero;
 Let's specify the position of an object as an affine linear combination of two points:
 
 ```
-using
-UnityEngine
-public class
-ExampleScript : MonoBehaviour{
+using UnityEngine;
+public class ExampleScript : MonoBehaviour{
     public float t;
     public Vector3 first, second;
     void Update() {
-        transform.position = (1 t) * first + t * second;
+        transform.position = (1 - t) * first + t * second;
     }
 }
 ```
@@ -80,18 +86,18 @@ public class ExampleScript : MonoBehaviour {
     public float t = 0.0f, velocity = 0.0f;
     public Vector3 first, second;
     void Update() {
-        t += velocity _ Time.deltaTime;
+        t += velocity * Time.deltaTime;
         if (t > 1.0) { t = 1.0f; }
         if (t < 0.0) { t = 0.0f; }
-        transform.position = (1 - t) _ first + t \* second;
+        transform.position = (1 - t) * first + t * second;
     }
 }
 ```
 
-7. Change the code from the previous slide to make the object continuously bounce between the two points by changing the sign of the velocity whenever the object reaches one of the points.
+7. Change the code above to make the object continuously bounce between the two points by changing the sign of the velocity whenever the object reaches one of the points.
 8. Use Mathf.Sin(Time.time) to animate t smoothly between 0 and 1. (Time.time is the time in seconds since the game was started.)
 
-## Task 3 - Scripting Curved Motions:
+## Task 2 - Scripting Curved Motions:
 
 A quadratic Bezier curve uses an affine linear combination of three points P0, P1, and P2:
 <img src="https://render.githubusercontent.com/render/math?math=B(t) = (1 - t)^2P_0 %2B 2(1 - t)tP_1 %2B t^2P_2">
@@ -112,12 +118,11 @@ Instead of specifying points by Vector3, we can also use other game objects:
 
 ```
 using UnityEngine;
-public class
-ExampleScript : MonoBehaviour{
+public class ExampleScript : MonoBehaviour{
     public float t = 0.0f;
     public GameObject P0, P1, P2;
     void Update() {
-        transform.position(1.0f - t) * (1.0f - t) * P0.transform.position +
+        transform.position = (1.0f - t) * (1.0f - t) * P0.transform.position +
         ...
 ```
 
