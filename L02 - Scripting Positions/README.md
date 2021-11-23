@@ -65,10 +65,8 @@ public Vector4 colorChange = Vector4.zero;
 Let's specify the position of an object as an affine linear combination of two points:
 
 ```
-using
-UnityEngine
-public class
-ExampleScript : MonoBehaviour{
+using UnityEngine;
+public class ExampleScript : MonoBehaviour{
     public float t;
     public Vector3 first, second;
     void Update() {
@@ -120,8 +118,7 @@ Instead of specifying points by Vector3, we can also use other game objects:
 
 ```
 using UnityEngine;
-public class
-ExampleScript : MonoBehaviour{
+public class ExampleScript : MonoBehaviour{
     public float t = 0.0f;
     public GameObject P0, P1, P2;
     void Update() {
