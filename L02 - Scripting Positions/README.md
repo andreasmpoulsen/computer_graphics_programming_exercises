@@ -94,7 +94,7 @@ public class ExampleScript : MonoBehaviour {
 }
 ```
 
-7. Change the code from the previous slide to make the object continuously bounce between the two points by changing the sign of the velocity whenever the object reaches one of the points.
+7. Change the code above to make the object continuously bounce between the two points by changing the sign of the velocity whenever the object reaches one of the points.
 8. Use Mathf.Sin(Time.time) to animate t smoothly between 0 and 1. (Time.time is the time in seconds since the game was started.)
 
 ## Task 2 - Scripting Curved Motions:
