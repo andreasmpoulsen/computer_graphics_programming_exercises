@@ -4,7 +4,17 @@
 
 1. Create a script in C# (in the Project window: Create > C# Script) and rename it to "ExampleScript"
 2. Open it in an editor by double clicking it.
-3. Delete the default content and copy the script from the previous slide into it.
+3. Delete the default content and copy the script below into it.
+
+```
+using UnityEngine;
+public class ExampleScript : MonoBehaviour{
+    void Update() {
+        transform.position = transform.position + new Vector3(0.1f, 0.0f, 0.0f);
+    }
+}
+```
+
 4. Attach it to an object by dragging the script over the object.
 5. Run the program.
 
