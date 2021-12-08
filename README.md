@@ -1,4 +1,4 @@
-# computer_graphics_programming_exercises
+# Computer Graphics Programming Exercises
 Exercises for the Computer Graphics Programming course from VGIS at AAU
 
 Exercises for the following lectures:
