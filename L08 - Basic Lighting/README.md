@@ -27,7 +27,7 @@
 2. Create a scene that shows front and back faces of one mesh (e.g. by using the default Plane mesh)
 3. Use another mesh and the discard command to see front and back faces.
 
-# Task 4 - Smooth Spec. Highlights
+## Task 4 - Smooth Spec. Highlights
 
 [Tutorial](https://en.wikibooks.org/wiki/Cg_Programming/Unity/Smooth_Specular_Highlights)
 
@@ -35,7 +35,7 @@
 2. Create a scene to compare per vertex lighting and per pixel lighting.
 3. Experiment with removing some of the normalization functions. When do you see rendering artifacts?
 
-# Task 5 - Multiple Lights
+## Task 5 - Multiple Lights
 
 [Tutorial](https://en.wikibooks.org/wiki/Cg_Programming/Unity/Multiple_Lights)
 
